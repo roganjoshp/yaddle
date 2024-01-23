@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yaddle"
+authors = [
+    {"name" = "Josh Pilkington", "email" = "j.pilkington@hotmail.com"},
+]
+version = "0.0.1"
+description = "A production scheduling toolkit"
+dependencies=[
+    "pandas>=2.1.2",
+    "polars",
+    "setuptools>=68.2.2",
+]
+readme = "README.md"
+requires-python = ">=3."
